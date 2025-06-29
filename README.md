@@ -34,3 +34,11 @@ CodeMate AI is a full-stack AI chatbot designed to help developers debug and und
 cd client
 npm install
 npm run dev
+```
+### Backend
+
+```bash
+cd server
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
